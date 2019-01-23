@@ -1,10 +1,6 @@
 // API functions
 import { saveQuestionAnswer } from '../utils/api'
-
-// Action Types
-export const RECEIVE_USERS = 'RECEIVE_USERS'
-export const SAVE_QUESTION = 'SAVE_QUESTION'
-export const ADD_QUESTION = 'ADD_QUESTION_TO_USER'
+import { RECEIVE_USERS, SAVE_QUESTION, ADD_QUESTION } from './types'
 
 // Users Action Creators
 export const receiveUsers = (users) => {
@@ -12,6 +8,7 @@ export const receiveUsers = (users) => {
     type: RECEIVE_USERS,
     users
   }
+
 }
 
 export const saveAnswer = (loginUser, qid, answer) => {

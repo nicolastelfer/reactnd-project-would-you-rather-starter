@@ -5,4 +5,7 @@ This is a game in which you are allow to ask a question with 2 different options
 ## Start
 
 * Download this repo
+* navigate to the `my-ap` folder to install the app
 * run `npm install`
+* Go!
+
